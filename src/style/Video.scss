@@ -1,0 +1,47 @@
+@import './vars.scss';
+//general component
+
+.video_card {
+    border: 3px solid rgb(200,200,200,0.5);
+    border-radius: 5px;
+    display: block;
+    height: 45vh;
+    margin: 5%;
+    width: 18vw;
+}
+//media component
+.media_card {
+    height: 30vh;
+    width: 17.5vw;
+}
+.media_card img {
+    border-radius: 5px;
+    height: inherit;
+    width: inherit;
+}
+
+//title field
+.video_info {
+    display: flex;
+}
+.image_profile {
+    margin: 3%;
+}
+.image_profile img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    
+}
+
+.media_title {
+    margin-top: 5%;
+}
+
+.video_description {
+    margin-top: -8%;
+    margin-left: 19%;
+}
+
+
+//float:left
