@@ -1,9 +1,9 @@
 import React from "react";
 
 import "../../style/Header.scss";
-import camara from "../../style/icon/camara1.png";
+import camara from "../../style/icon/camara.png";
 import appMenu from "../../style/icon/menu.png";
-import notification from "../../style/icon/notifi.png";
+import notification from "../../style/icon/notifi3.png";
 
 const HeaderOption = () => {
     return (

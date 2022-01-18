@@ -11,6 +11,10 @@ const Home = () => {
     <>
       <Header />
       <Video />
+      <Video />
+      <Video />
+      <Video />
+    
     </>
   );
 };

@@ -2,12 +2,11 @@
 //general component
 
 .video_card {
-    border: 3px solid rgb(200,200,200,0.5);
-    border-radius: 5px;
+    border-radius: 10%;
     display: block;
     height: 45vh;
     margin: 5%;
-    width: 18vw;
+    width: 17.5vw;
 }
 //media component
 .media_card {
@@ -15,7 +14,8 @@
     width: 17.5vw;
 }
 .media_card img {
-    border-radius: 5px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
     height: inherit;
     width: inherit;
 }
@@ -45,3 +45,41 @@
 
 
 //float:left
+
+@media screen and (max-width: 768px) {
+    .video_card {
+        display: block;
+        margin: auto;
+        margin-top: 2%;
+        height: 40vh;
+        width: 80vw;
+    }
+    .media_card {
+        height: 30vh;
+        width: 100%;
+    }
+    .media_card img {
+        border-top-left-radius: 3%;
+        border-top-right-radius: 3%;
+        height: inherit;
+        width: inherit;
+    }
+    .image_profile img {
+        border-radius: 50%;
+        height: 40px;
+        margin-top: 2%;
+        width: 40px;
+        
+    }
+    .media_title {
+        font-family: $font-title-family;
+        margin-top: 5%;
+    }
+    
+    .video_description {
+        font-family: $font-text-family;
+        margin-left: 14%;
+        margin-top: -5%;
+    }
+    
+}
